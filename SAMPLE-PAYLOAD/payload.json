@@ -1,0 +1,101 @@
+{
+  "telemetry": {
+    "token": "FM1037",
+    "status": "ok",
+    "json-ver": "v1.2",
+    "teleParam": [
+      {
+        "ts": 1732524141755,
+        "flowRate": 6.43798393943219,
+        "discharge": 36570,
+        "workHour": 21506,
+        "cummRevDisch": -2,
+        "Data": 226786,
+        "CycleSlips": 52442,
+        "NoData": 626,
+        "USS": 52507861
+      }
+    ]
+  },
+  "error": {
+    "token": "FM4568",
+    "status": "ok",
+    "json-ver": "v1.4",
+    "mspErrParam": [
+      {
+        "ts": 1732524141755,
+        "err-code": 176
+      }
+    ]
+  },
+  "pump": {
+    "token": "FM3278",
+    "status": "ok",
+    "json-ver": "v1.4",
+    "pumpParam": [
+      {
+        "PumpStartTs": 1732524141755,
+        "Startdischarge": 19361900,
+        "StartData": 11640,
+        "StartNoData": 1352,
+        "StartCycleSlips": 179,
+        "PumpStoptTs": 1732525691684,
+        "Stopdischarge": 19237657,
+        "StopData": 20596,
+        "StopNoData": 1437,
+        "StopCycleSlips": 1696
+      }
+    ]
+  },
+  "diagnostic": {
+    "token": "FM5519",
+    "status": "ok",
+    "ts": 1732524141755,
+    "json-ver": "v1.4",
+    "diagnosParam": {
+      "RSSI": -98,
+      "ttc": 4076,
+      "simId": 2,
+      "vBatNoLoad": 335,
+      "vBatonLoad": 326,
+      "vSuperCap": 318
+    },
+    "commParam": {
+      "pppTime": 34,
+      "ntpTime": 40,
+      "serverCmdsTime": 3
+    },
+    "storedDiagParams": {
+      "param1": {
+        "reason": "err-server-con",
+        "pppTime": 35,
+        "serverTime": 120,
+        "simId": 2,
+        "RSSI": -59,
+        "vBatNoLoad": 325,
+        "vBatonLoad": 350,
+        "vSuperCap": 301
+      },
+      "param2": {
+        "reason": "err-server-con",
+        "pppTime": 46,
+        "serverTime": 120,
+        "simId": 1,
+        "RSSI": -81,
+        "vBatNoLoad": 339,
+        "vBatonLoad": 339,
+        "vSuperCap": 338
+      },
+      "param3": {
+        "reason": "err-server-con",
+        "pppTime": 14,
+        "serverTime": 120,
+        "simId": 1,
+        "RSSI": -73,
+        "vBatNoLoad": 339,
+        "vBatonLoad": 350,
+        "vSuperCap": 320
+      }
+    }
+  }
+}
