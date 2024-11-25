@@ -1,4 +1,4 @@
-## Serverless ETL Workflow with AWS Step Functions for Data Processing and Analytics (code to be uploaded soon...)
+## Serverless ETL Workflow with AWS Step Functions for IoT Data Processing and Analytics
 
 ![stepfunctions_graph](https://github.com/user-attachments/assets/5a9f0ae5-779b-483a-b612-55d7490f4fd7)
 
