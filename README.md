@@ -1,5 +1,8 @@
 ## Serverless ETL Workflow with AWS Step Functions for Data Processing and Analytics (code to be uploaded soon...)
 
+![stepfunctions_graph](https://github.com/user-attachments/assets/5a9f0ae5-779b-483a-b612-55d7490f4fd7)
+
+
 ### Overview
 This project builds a **Serverless ETL Pipeline** that collects IoT telemetry data, processes it using AWS Lambda, and loads it into a PostgreSQL database. The pipeline uses several AWS services like **AWS Step Functions**, **AWS Lambda**, **AWS IoT Core**, **Amazon S3**, **Amazon SQS**, **CloudWatch**, and **pgAdmin** for monitoring and database management.
 
